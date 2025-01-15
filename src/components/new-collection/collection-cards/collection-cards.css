@@ -10,7 +10,7 @@
 .card-price {
   font-weight: 700;
   font-size: 18px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .card-sub {
   opacity: 0.6;

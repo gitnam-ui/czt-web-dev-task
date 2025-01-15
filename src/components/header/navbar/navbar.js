@@ -31,7 +31,7 @@ const Navbar = () => {
           </NavLink>
         </div>
       </div>
-      <div className="navbar-logo">Logo</div>
+      <div className="navbar-logo">TULOS</div>
       <div className="navbar-user-info">user info</div>
     </div>
   );

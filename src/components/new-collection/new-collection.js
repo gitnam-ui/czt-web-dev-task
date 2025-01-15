@@ -6,30 +6,34 @@ const NewCollection = () => {
     {
       image:
         "https://images.unsplash.com/photo-1524095731963-b4e38d1b3329?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "title 1",
-      subTitle: "sub_title",
-      price: 1,
+      title: "Shirt",
+      subTitle: "Cotton Shirt",
+      price: 100,
+      "id" : "id1"
     },
     {
       image:
         "https://images.unsplash.com/photo-1524095731963-b4e38d1b3329?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "title 2",
-      subTitle: "sub_title",
-      price: 1,
+      title: "Pant",
+      subTitle: "Cotton Pant",
+      price: 100,
+      id : "id2"
     },
     {
       image:
         "https://images.unsplash.com/photo-1524095731963-b4e38d1b3329?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "title 3",
+      title: "Shirt",
       subTitle: "sub_title",
       price: 1,
+      id : "id3"
     },
     {
       image:
         "https://images.unsplash.com/photo-1524095731963-b4e38d1b3329?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      title: "title 4",
+      title: "Pant",
       subTitle: "sub_title",
       price: 1,
+      id : "id4"
     },
     {
       image:
@@ -37,6 +41,7 @@ const NewCollection = () => {
       title: "title 5",
       subTitle: "sub_title",
       price: 1,
+      id : "id5"
     },
   ];
   return (
@@ -46,6 +51,7 @@ const NewCollection = () => {
         {cards_info.map((item, index) => {
           return (
             <Cards
+              id={item.id}
               key={index}
               image={item.image}
               title={item.title}
